@@ -1,0 +1,66 @@
+row1 = [' ',' ',' ']
+row2 = [' ',' ',' ']
+row3 = [' ',' ',' ']
+
+def display(row1,row2,row3):
+    print(row1)
+    print(row2)
+    print(row3)
+
+position_index = int(input("Choose an index position: "))
+    #check value
+
+def user_choise():
+    choice = input("Please enter a number(0-10): ")
+    return int(choice)
+    ##can return an error if it can't convert to an integer
+    ## can use isdigit() check, can also do a try/except block
+
+some_value = '100'
+some_value.isdigit()
+    #returns True
+
+def user_choise():
+
+    choice = 'WRONG'
+
+    while choice.isdigit() == False:
+        choice = input("Please enter a number(0-10): ")
+        if choice.isdigit()==False:
+            print("Sorry, that is not a digit!")  
+    return int(choice)
+
+    ## still need to check against a list of acceptable values
+
+result = 'WRONG VALUE'
+acceptable_values = [0,1,2]
+result in acceptable_values
+  #returns False
+result not in acceptable_values
+  #returns True
+
+def user_choise():
+    #Variables
+
+    # Initial
+    choice = 'WRONG'
+    acceptable_range=range(0,10)
+    within_range=False
+
+    # TWO CONDITIONS TO CHECK
+    # DIGIT OR WITHIN_RANGE==False
+
+    while choice.isdigit() == False or within_range==False:
+        choice = input("Please enter a number(0-10): ")
+       # Digit check        
+        if choice.isdigit()==False:
+            print("Sorry, that is not a digit!") 
+       # Range Check
+        if choice.isdigit == True:  #can also leave out " == True"
+            if int(choice) in acceptable_range:
+                within_range=True
+            else:
+                within_range=False  #can also just say "pass" 
+                print("Sorry, you are out of the acceptable range")
+    return int(choice)
+

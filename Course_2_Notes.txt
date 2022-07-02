@@ -1,0 +1,23 @@
+Command Line
+cd = check current directory (CD means change directory)
+dir = what's in my current directory
+cd <directory> = go down one directory into a subfolder
+cd .. = go up one directory
+cd <first letter><tab> = scroll through each item in that
+    directory that begins with that letter using tab
+<drive letter>: = change directory to a new drive
+
+to get to my regular location on the "I:/" drive, open anaconda CMD promt and type
+jupyter notebook --notebook-dir=I:/jupyter notebook --notebook-dir=I:/Documents/Python_Course
+-Then, if necessary, type this into a chrome tab:
+http://localhost:8889/tree/Documents/Python_Course
+
+To install pip
+C:\Users\Matt\AppData\Local\Programs\Python\Python310\Scripts>python get-pip.py
+
+pip installs:
+At command pine:
+C:\Users\Matt>pip install _____
+
+to use python from command line:
+C:\Users\Matt>python

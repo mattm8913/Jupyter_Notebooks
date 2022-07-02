@@ -1,0 +1,14 @@
+"""
+define the visual display
+also 
+from IPython.display import clear_output
+
+function for displaying the visual
+
+function for user to choose a position
+
+function for user to choose new input for that position
+
+function for do you want to keep playing
+
+then build the game logic using while loop for the game

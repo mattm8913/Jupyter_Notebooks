@@ -1,0 +1,12 @@
+2 human players, both same computer
+board printed out after every move
+accept input of the player position and then place a symbol on the board
+(alternate between X and O)
+
+use the "numpad" to match numbers to the grid
+7 8 9
+4 5 6
+1 2 3
+
+Do you want to be X or O
+alternate player 1 input on top and 2 on bottom
